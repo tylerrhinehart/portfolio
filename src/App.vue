@@ -89,4 +89,7 @@
     text-align: center;
     background-size: cover
   }
+  .container {
+    max-width: 1200px !important;
+  }
 </style>

@@ -10,6 +10,19 @@
             </v-flex>
             <v-flex xs12 md6>
                 <v-card>
+                    <v-card-media src="../static/images/cms.png" height="200px">
+                    </v-card-media>
+                    <v-card-title>
+                        <div class="headline">CMS</div>
+                    </v-card-title>
+                    <v-card-actions>
+                        <v-btn target="_blank" href="http://cms.tylerrhinehart.com" flat class="orange--text">View</v-btn>
+                        <!-- <v-btn href="//github.com/tylerrhinehart/tattoo-me" flat class="orange--text">Source Code</v-btn> -->
+                    </v-card-actions>
+                </v-card>
+            </v-flex>
+            <!-- <v-flex xs12 md6>
+                <v-card>
                     <v-card-media src="../static/images/Tattoo-me.png" height="200px">
                     </v-card-media>
                     <v-card-title>
@@ -20,7 +33,7 @@
                         <v-btn href="//github.com/tylerrhinehart/tattoo-me" flat class="orange--text">Source Code</v-btn>
                     </v-card-actions>
                 </v-card>
-            </v-flex>
+            </v-flex> -->
             <v-flex xs12 md6>
                 <v-card>
                     <v-card-media src="../static/images/Keepr.png" height="200px">
@@ -29,8 +42,8 @@
                         <div class="headline">Keepr</div>
                     </v-card-title>
                     <v-card-actions>
-                        <v-btn href="//tyler-keepr.herokuapp.com" flat class="orange--text">View</v-btn>
-                        <v-btn href="//github.com/tylerrhinehart/keepr-nodejs" flat class="orange--text">Source Code</v-btn>
+                        <v-btn target="_blank" href="//tyler-keepr.herokuapp.com" flat class="orange--text">View</v-btn>
+                        <v-btn target="_blank" href="//github.com/tylerrhinehart/keepr-nodejs" flat class="orange--text">Source Code</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-flex>
@@ -42,8 +55,8 @@
                         <div class="headline">Kanban</div>
                     </v-card-title>
                     <v-card-actions>
-                        <v-btn href="//tyler-austin-kanban.herokuapp.com" flat class="orange--text">View</v-btn>
-                        <v-btn href="//github.com/tylerrhinehart/vue-kanban" flat class="orange--text">Source Code</v-btn>
+                        <v-btn target="_blank" href="//tyler-austin-kanban.herokuapp.com" flat class="orange--text">View</v-btn>
+                        <v-btn target="_blank" href="//github.com/tylerrhinehart/vue-kanban" flat class="orange--text">Source Code</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-flex>
@@ -55,8 +68,8 @@
                         <div class="headline">Music Finder</div>
                     </v-card-title>
                     <v-card-actions>
-                        <v-btn href="//music-checkpoint.herokuapp.com" flat class="orange--text">View</v-btn>
-                        <v-btn href="//github.com/tylerrhinehart/vue-music-checkpoint" flat class="orange--text">Source Code</v-btn>
+                        <v-btn target="_blank" href="//music-checkpoint.herokuapp.com" flat class="orange--text">View</v-btn>
+                        <v-btn target="_blank" href="//github.com/tylerrhinehart/vue-music-checkpoint" flat class="orange--text">Source Code</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-flex>
@@ -82,7 +95,6 @@
     }
 
     #portfolio {
-        /* height: 90vh; */
         padding-top: 10vh;
         padding-bottom: 5vh;
     }
