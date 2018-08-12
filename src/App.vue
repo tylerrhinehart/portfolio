@@ -82,7 +82,7 @@
 
 <style>
   main {
-    background-image: url("https://static.pexels.com/photos/314726/pexels-photo-314726.jpeg");
+    /* background-image: url("https://static.pexels.com/photos/314726/pexels-photo-314726.jpeg"); */
     background-position-x: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
